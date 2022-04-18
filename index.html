@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            display: flex;
+            border: 5px solid red;
+            /* flex-direction: row; */
+            flex-wrap: wrap;
+            /* justify-content: center; */
+            /* justify-content: space-around; */
+            justify-content: space-evenly;
+            /* align-items: center/flex-end/flex-start/stretch; */
+            height: 500px;
+            /* justify-content for Horizontal alignment; */
+            /* align-items is for vertical alignment; */
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #cal {
+            border: 1px solid red;
+            display: inline-block;
+            padding: 20px;
+        }
+        
+        #container>div {
+            padding: 10px;
+        }
+        
+        #container>div:nth-child(1) {
+            color: hotpink;
+            background-color: pink;
+        }
+        
+        #container>div:nth-child(2) {
+            color: hotpink;
+            background-color: plum;
+        }
+        
+        #container>div:nth-child(3) {
+            color: hotpink;
+            background-color: purple;
+        }
+        
+        #container>div:nth-child(4) {
+            color: hotpink;
+            background-color: rosybrown;
+        }
+        
+        #container>div:nth-child(5) {
+            color: hotpink;
+            background-color: seashell;
+        }
+        
+        #container>div:nth-child(6) {
+            color: hotpink;
+            background-color: sienna;
+        }
+        
+        #container>div:nth-child(7) {
+            color: hotpink;
+            background-color: silver;
+        }
+        
+        #container>div:nth-child(8) {
+            color: hotpink;
+            background-color: skyblue;
+        }
+        
+        #container>div:nth-child(9) {
+            color: hotpink;
+            background-color: teal;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
+        <div>Item 5</div>
+        <div>Item 6</div>
+        <div>Item 7</div>
+        <div>Item 8</div>
+        <div>Item 9</div>
+    </div>
+</body>
+<div id="cal">9</div>
+
+</html>
